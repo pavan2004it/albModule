@@ -4,7 +4,7 @@ output "lb_id" {
 }
 
 output "lb_name" {
-  value = aws_lb.this.name
+  value = aws_lb.this[0].name
 }
 
 output "lb_arn" {
